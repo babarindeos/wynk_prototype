@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wynk | Home</title>
+        <title>Wynk | Login</title>
         <!--<link rel="stylesheet" href="css/style.css"> //-->
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,13 +26,13 @@
 
 
                     <!--form-->
-                    <div class="flex flex-col">
+                    <div class="flex flex-col w-80 mr-5">
                             <form>
                                     <input type="text" class="mt-5 block w-full rounded-md bg-gray-100 border border-gray-400 focus:border-blue-200 
-                                        focus:bg-white focus:ring-0 sm:w-full md:w-1/2 lg:w-1/2 px-8 py-3" placeholder="Phone, email or username">
+                                        focus:bg-white focus:ring-0 sm:w-full sm:w-4/5 md:w-1/2 lg:w-1/2 px-8 py-3" placeholder="Phone, email or username">
                                     
                                     <input type="text" class="mt-5 block w-full rounded-md bg-gray-100 border border-gray-400 focus:border-blue-200 
-                                        focus:bg-white focus:ring-0 sm:w-full md:w-1/2 lg:w-1/2 px-8 py-3" placeholder="Password"
+                                        focus:bg-white focus:ring-0 sm:w-full sm:w-4/5 md:w-1/2 lg:w-1/2 px-8 py-3" placeholder="Password"
                                         style="margin-top:6px;">
 
                             </form>
@@ -41,19 +41,30 @@
 
 
                      <!--forget password-->
-                     <div class="flex flex-col"  style="margin-top:-5px;">
-                            <p class="text-right text-blue-500 text-xs md:w-1/2 lg:w-1/2 font-semibold">Forget Password?</p>
+                     <div class="flex flex-col mr-5"  style="margin-top:-5px;">
+                            <p class="text-right text-blue-500 text-xs md:w-1/2 lg:w-1/2 font-semibold cursor-pointer">Forget Password?</p>
                      </div>
 
                      <!-- end of forget password-->
                     
 
                      <!-- buttons-->
-                     <div class="flex flex-col mt-auto">
-                        <button class="bg-blue md:w-1/2 lg:w-1/2 rounded-lg py-2 px-2 text-center ">Register</button>
+                     <div class="flex flex-col mt-auto mr-5 gap-2" >
+                        <button class="bg-blue w-full md:w-1/2 lg:w-1/2 rounded-md py-2 px-2 text-center border border-transparent
+                         bg-blue-900 text-white text-sm font-semibold">Register</button>
+
+                         <button class="bg-blue w-full md:w-1/2 lg:w-1/2 rounded-md py-2 px-2 text-center border border-blue-900
+                         bg-blue text-blue-900 text-sm font-semibold">Login with OTP</button>
 
                      </div>
                      <!-- end of buttons-->
+
+                     <!-- Don't have an account register-->
+                     <div class="flex flex-col mt-auto py-10 md:w-1/2 lg:w-1/2 mr-5">
+                         <p class="text-sm font-semibold text-center ">Don't have an account? <span class="text-blue-900">Register</span></p>
+                     </div>
+                     
+                     <!-- end of don't have an account register-->
                      
                     
                                     
