@@ -20,7 +20,7 @@
             <main class="mb-auto h-screen" >
 
                 <div class="relative h-full z-1 mt-2">
-                        <div class="absolute inset-x-0 bottom-0 h-5/6 mb-0 rounded-t-2xl" style="background-color:#2A238A;">
+                        <div class="absolute inset-x-0 bottom-0 h-5/6 mb-0 rounded-t-2xl" style="background-color:#0B0A26;">
                             
                             <ul class="py-1">
                                 <li class="py-4">
@@ -28,7 +28,7 @@
                                         <div class="text-left w-2/3 px-5 ">
                                            
                                             <div class="text-2xl text-white font-normal">
-                                                3 min <span class="font-normal">&#x2022;</span> 2.6km
+                                                1 min <span class="font-normal">&#x2022;</span> 0.2km
                                             </div>
                                             <div class="text-lg text-white font-normal">
                                                 Rider Request
@@ -45,28 +45,33 @@
                                         </div>
                                     </div>
                                     
-                                </li>
-                                <li class="py-4">
-                                    <div class="flex flex-row w-full">
-                                        <div class="text-left w-2/3 px-5 ">
-                                            <div class="uppercase text-xs text-white opacity-75 font-normal">
-                                                Price Estimate
-                                            </div>
-                                            <div class="text-2xl text-white font-normal">
-                                                1,200 - 1,700 <span class="text-sm">NGN</span>
-                                            </div>
-                                           
-                                        </div>
-                                        
-                                    </div>
-                                    
-                                </li>
-                                
+                                </li>                     
                                 
 
-                            </ul>     
+                            </ul>  
+                            
+                                <!-- arrived-->
+                                <div class="h-20 w-full mx-auto rounded-t-lg" style="background-color:2A238A;">
+                                    <div class="grid grid-cols-3 h-full">
+                                            <div class="mx-auto my-auto text-white text-sm">
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="text-center my-auto text-white uppercase text-sm">Arrived</div>
+                                            <div  class="mx-auto my-auto text-white text-sm">
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- end of arrived-->
                                                                        
                         </div>
+
+
+                       
 
                        
                         
@@ -79,18 +84,28 @@
             </main>
             <!-- end of main content-->
             <!-- footer-->
-            <footer class="h-32 bg-orange-500 rounded-t-lg my-auto z-0">
-                <div class="grid grid-cols-2 h-full">
-                        <div class="my-auto w-full text-center justify-center ">                           
-                                <button class="text-slate-900 w-3/4 bg-white rounded-full px-6 py-3 text-sm font-semibold "> 
-                                    Accept
-                                </button>                           
+            <footer class="h-32 bg-white rounded-t-lg my-auto z-0">
+                <div class="grid grid-cols-1 h-full w-full">
+                        <div class="flex flex-row my-auto mx-auto space-x-2">  
+                                <!-- Phone-->                         
+                                <div class="flex w-10 h-10 border-2 border-black rounded-full items-center justify-center bg-transparent">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>  
+                                <!-- end of Phone-->
+                                
+                                <!-- Message-->
+                                <div class="flex w-10 h-10 border-2 border-black rounded-full items-center justify-center bg-transparent">
+                                    <i class="fa fa-comment" aria-hidden="true"></i>
+                                </div>  
+                                <!-- end of Message-->
+
+                                <!-- Cancel-->
+                                <div class="flex w-10 h-10 border-2 border-red-500 rounded-full items-center justify-center bg-transparent">
+                                    <i class="fa fa-times text-red-700" aria-hidden="true"></i>
+                                </div>  
+                                <!-- end of Cancel-->
                             
                         </div>
-                        <div class="text-sm text-white my-auto">
-                            <p class="text-left">Decline ride</p>
-                        </div>
-
                 </div>
             </footer>
             <!-- end of footer-->
